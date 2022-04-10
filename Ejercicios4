@@ -1,0 +1,55 @@
+package bootcamp;
+/**
+ * @author juancruzcrotta
+ */
+public class Bootcamp {
+
+    public static void main(String[] args) {
+    int numeroIf=-3;
+        if (numeroIf > 0) {
+            System.out.println("Numero positivo");
+        }
+        else if(numeroIf == 0) {
+            System.out.println("Numero igual a 0");
+        }
+        else {
+            System.out.println("Numero negativo");
+        }
+        System.out.println(" ");
+        int numeroWhile=0;
+        while (numeroWhile < 3) {
+            numeroWhile++;
+            System.out.println("numeroWhile= "+ numeroWhile);
+        }
+        System.out.println(" ");
+        numeroWhile=0;
+        do {
+            System.out.println("numeroWhile= "+ numeroWhile);
+            numeroWhile++;
+        } while (numeroWhile < 1);
+        System.out.println(" ");
+        for (int numeroFor = 0; numeroFor <= 3; numeroFor++) {
+            System.out.println("numeroFor= "+ numeroFor);
+        }
+        System.out.println(" ");
+        switch("otono"){
+            case "verano":
+                System.out.println("Es verano ");
+                break;
+            case "invierno":
+                System.out.println("Es invierno ");
+                break;
+            case "primavera":
+                System.out.println("Es primavera ");
+                break;
+            case "otono":
+                System.out.println("Es otono ");
+                break;
+            default:
+                System.out.println("No es una estacion");
+              
+        }
+            
+    }
+
+}
