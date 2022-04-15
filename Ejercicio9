@@ -1,0 +1,35 @@
+public class Ejercicio9 {
+    public static void main(String[] args) {
+        Cliente cliente1= new Cliente();
+        cliente1.edad=18;
+        cliente1.telefono=2555453;
+        cliente1.nombre="Juan";
+        cliente1.credito=1500;
+        System.out.println("Cliente");
+        System.out.println("Edad: " + cliente1.edad);
+        System.out.println("Telefono: " + cliente1.telefono);
+        System.out.println("Nombre: " + cliente1.nombre);
+        System.out.println("Credito: " + cliente1.credito +"\n");
+        Trabajador trabajador1= new Trabajador();
+        trabajador1.edad=39;
+        trabajador1.telefono=4952432;
+        trabajador1.nombre="Pedro";
+        trabajador1.salario=50000;
+        System.out.println("Trabajador");
+        System.out.println("Edad: " + trabajador1.edad);
+        System.out.println("Telefono: " + trabajador1.telefono);
+        System.out.println("Nombre: " + trabajador1.nombre);
+        System.out.println("Salario: " + trabajador1.salario);
+        
+    }
+}
+class Persona {
+    int edad, telefono;
+    String nombre;    
+}
+class Cliente extends Persona {
+    int credito;
+}
+class Trabajador extends Persona {
+    int salario;
+}
