@@ -1,0 +1,7 @@
+peso=input("Cual es tu peso en kg ?")
+Cual es tu peso en kg ?70
+altura=input("Cual es tu altura en metros?")
+Cual es tu altura en metros?1.8
+imc=peso/altura
+imc=float(peso)/float(altura)
+print("Tu índice de masa corporal es donde es el índice de masa corporal calculado redondeado con dos decimales", round(imc,2))
