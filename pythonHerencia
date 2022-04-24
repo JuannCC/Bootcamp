@@ -1,0 +1,11 @@
+class Vehiculo:
+    color="rojo"
+    ruedas=5
+    puertas=2
+class Coche(Vehiculo):
+    velocidad=180
+    cilindrada=200
+
+v= Coche()
+print(Coche.velocidad)
+print(Coche.color)
