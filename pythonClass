@@ -1,0 +1,13 @@
+class Alumno:
+    nombre="Juan"
+    nota1=6
+
+a= Alumno()
+nom=a.nombre
+not1=a.nota1
+print(nom)
+print("Nota:", not1)
+if not1 >= 6:
+    print("APROBADO")
+else:
+    print("DESAPROBADO")
