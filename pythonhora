@@ -1,0 +1,19 @@
+import time
+localtime = time.ctime()
+print(localtime)
+a=(localtime[11])
+b=(localtime[12])
+c=(localtime[14])
+d=(localtime[15])
+
+if int(localtime[11]) == 0 and int(localtime[12]) <= 7 :
+    print("Es temprano")
+elif int(localtime[11]) == 1 and int(localtime[12]) >= 7 or int(localtime[11]) == 2 and int(localtime[12]) >= 0:
+    print("Ya no estas trabajando")
+else:
+    vector=a+b+c+d
+    print(vector)
+    final=1700
+    hora=int(vector)-final
+    horafinal=str(hora)
+    print("Para retirarte faltan", horafinal[0], "y", horafinal[1],"minutos")
