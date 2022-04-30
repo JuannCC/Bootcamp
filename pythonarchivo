@@ -1,0 +1,7 @@
+f= open("texto1.txt", "w")
+f.write("Hola mundo")
+f.close()
+f=open(r"texto1.txt")
+mensaje=f.read()
+print(mensaje)
+f.close()
