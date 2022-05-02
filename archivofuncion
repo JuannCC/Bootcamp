@@ -1,0 +1,20 @@
+class Vehiculo:
+    #partes="Las partes del vehiculos son muchas y diversas"
+    def __init__(self,c):
+        self.color = c
+
+    def printColor(self):
+        print (self.color)
+
+
+auto = Vehiculo("Rojo")
+auto.printColor()
+
+#f=open("Vehiculo.txt", "w")
+#f.writelines(auto.partes)
+#f.close
+
+f = open (r'Vehiculo.txt')
+mensaje = f.read()
+print(mensaje)
+f.close()
