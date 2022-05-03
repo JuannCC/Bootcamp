@@ -1,0 +1,7 @@
+import functools
+lista=[1,2,3,4,5,6,7,8,9]
+a=filter(lambda p: p%2 != 0, lista)
+b=list(a)
+c=functools.reduce(lambda a, b: a+b, b)
+print(b)
+print(c)
