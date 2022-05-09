@@ -1,0 +1,16 @@
+from tkinter import *
+
+OPTIONS = ["Lunes","Martes","Miercoles","Jueves","Viernes"] 
+
+master = Tk()
+
+variable = StringVar(master)
+variable.set(OPTIONS[0]) # default value
+
+label_saludo=Label(master, text="Elige dia de la semana",bg="blue",fg="white")
+label_saludo.pack(ipadx=20, ipady=20, fill="x")
+
+w = OptionMenu(master, variable, *OPTIONS)
+w.pack()
+
+mainloop()
