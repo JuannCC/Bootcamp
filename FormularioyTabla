@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="formulario1_nombre" action="recibeform.html" method="post" 
+    style="border: 5 px #000 solid; margin:30px;padding: 10px; background-color: #f1d1d1;">
+    <h2>Nuestro Formulario</h2>
+
+<fieldset>
+    <legend>Aqui son tus datos de contacto</legend>
+
+    <div>
+        <input pattern="[A-Za-z0-9]+" required type="text" value="Juan" placeholder="Aqui tu nombre">
+        <p></p>
+        <input type="text" value="Crotta"placeholder="Aqui tu apellido">
+        <p></p>
+        <!--<input type="date">-->
+        <input type="tel" required name="tel" placeholder="Aqui tu telefono" id="tel1" value="3584960256">
+        <p></p>
+        <input type="text" value="Email"placeholder="Aqui tu email">
+        <p></p>
+        <input type="text" value="Direccion"placeholder="Aqui tu direccion">
+        <p></p>
+        <!--
+        <input type="radio" name="sexo" value="H">Hombre
+        <input type="radio" name="sexo" value="M">Mujer
+        <p></p>
+
+        Casilla de verificacion
+        <input type="checkbox" name="empresa" checked>1 
+        <input type="checkbox" name="empresa" checked>2 
+        <input type="checkbox" name="empresa" checked>3 
+        -->
+    </div>
+    <p></p>
+
+    <div>
+        <input type="submit" value="Enviar Formulario">
+    </div>
+</fieldset>
+</form> 
+</body>
+<table border="1" style="border-collapse: collapse; width: 100%; height: 48px;">
+    <tbody>
+    <tr style="height: 18px;">
+    <th colspan="2" style="height: 18px; width: 49.8598%; text-align: center;">Fines de semana</th>
+    <td style="height: 18px; width: 24.8598%; text-align: center;">Sabado</td>
+    <td style="height: 18px; width: 24.8598%; text-align: center;">Domingo</td>
+    </tr>
+    <tr style="height: 10px;">
+    <td rowspan="2" style="height: 20px; width: 24.8598%; text-align: center;">
+    <p></p>
+    <p>Manana</p>
+    </td>
+    <td style="width: 25%; height: 10px; text-align: center;">8:00AM</td>
+    <td style="width: 24.8598%; height: 10px; text-align: center;">Gym</td>
+    <td style="width: 24.8598%; height: 10px; text-align: center;">Desayuno</td>
+    </tr>
+    <tr style="height: 0px;">
+    <td style="width: 25%; height: 10px; text-align: center;">9:00AM</td>
+    <td style="width: 24.8598%; height: 10px; text-align: center;">Estudio</td>
+    <td style="width: 24.8598%; height: 10px; text-align: center;">Gym</td>
+    <td style="width: 25%; height: 10px;"></td>
+    </tr>
+    <tr style="height: 10px;">
+    <td style="width: 24.8598%; height: 10px; text-align: center;">Tarde</td>
+    <td style="width: 25%; height: 10px; text-align: center;">3:00PM</td>
+    <td style="width: 24.8598%; height: 10px; text-align: center;">Siesta</td>
+    <td style="width: 24.8598%; height: 10px; text-align: center;">Futbol</td>
+    </tr>
+    </tbody>
+    </table>
+</html>
