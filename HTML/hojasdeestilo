@@ -7,9 +7,29 @@
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-    <h1 id="nombre" class="encabezado">Juan Cruz Crotta</h1>
+    <h1 id="titulo" class="encabezado">Lista de compras</h1>
+    <ul>
+        <li id=primerelemento>Leche</li>
+        <li id=segundoelemento>Huevos</li>
+        <li id=terceroelemento>Carne</li>
+        <li id=cuartoelemento>Fideos</li>
+        <li id=quitoelemento>Frutas</li>
+    </ul>
+    <ol>
+        <li class="ordenada" id=primerelemento>Vea</li>
+        <li id=segundoelemento>Dia</li>
+        <li id=terceroelemento>Carrefour</li>
+        <li id=cuartoelemento>Top</li>
+        <li id=quitoelemento>Changomas</li>
+    </ol>
     <p id="frase" class="texto-principal">
         Haz que el dinero trabaje para ti
     </p>
+    <div class="fondo">
+        <p>
+            Este texto va a tener fondo
+        </p>
+        <h1>HOLA MUNDO</h1>
+    </div>
 </body>
 </html>
