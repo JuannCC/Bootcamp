@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primero Web</title>
+</head>
+<table border="1" style="border-collapse: collapse; width: 100%; height: 48px;">
+    <tbody>
+        <tr style="height: 18px;">
+            <th colspan="2" style="height: 18px; width: 49.8598%; text-align: center;">Fines de semana</th>
+            <td style="height: 18px; width: 24.8598%; text-align: center;">Sabado</td>
+            <td style="height: 18px; width: 24.8598%; text-align: center;">Domingo</td>
+        </tr>
+        <tr style="height: 10px;">
+            <td rowspan="2" style="height: 20px; width: 24.8598%; text-align: center;">
+                <p></p>
+                <p>Manana</p>
+            </td>
+            <td style="width: 25%; height: 10px; text-align: center;">8:00AM</td>
+            <td style="width: 24.8598%; height: 10px; text-align: center;">Gym</td>
+            <td style="width: 24.8598%; height: 10px; text-align: center;">Desayuno</td>
+        </tr>
+        <tr style="height: 0px;">
+            <td style="width: 25%; height: 10px; text-align: center;">9:00AM</td>
+            <td style="width: 24.8598%; height: 10px; text-align: center;">Estudio</td>
+            <td style="width: 24.8598%; height: 10px; text-align: center;">Gym</td>
+            <td style="width: 25%; height: 10px;"></td>
+        </tr>
+        <tr style="height: 10px;">
+            <td style="width: 24.8598%; height: 10px; text-align: center;">Tarde</td>
+            <td style="width: 25%; height: 10px; text-align: center;">3:00PM</td>
+            <td style="width: 24.8598%; height: 10px; text-align: center;">Siesta</td>
+            <td style="width: 24.8598%; height: 10px; text-align: center;">Futbol</td>
+        </tr>
+    </tbody>
+</table>
+</html>
