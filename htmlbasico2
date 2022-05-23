@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 02 - Formularios en HTML</title>
+</head>
+<body>
+    <div>
+    <form action="/">
+        <label for="nombre"> Cual es tu nombre?</label>
+        <input pattern="[A-Za-z0-9]+" required type="text" value="Juan" placeholder="Aqui tu nombre">
+        <p></p>
+        <label for="edad"> Cual es tu edad?</label>
+        <input required type="number" name="edad" id="edad" placeholder="Aqui pon tu edad">
+        <p></p>
+        <label for="frase-favorita"> Cual es tu frase?</label>
+        <input type="text" value="frase-favorita" placeholder="Aqui pon tu frase">
+        <p></p>
+        <button type="reset">Reset</button>
+        <button type="submit">Enviar</button>
+    </form>
+
+</div>
+<div>
+    <ul>
+        <li><a href="https://www.youtube.com/watch?v=BqiZ92ijF-0"> Smiles</a></li>
+        <li><a href="https://www.youtube.com/watch?v=N8PANyXRdME"> Django</a></li>
+        <li><a href="www.youtube.com"> Youtube</a></li>
+    </ul>
+</div>
+</body>
+</html>
