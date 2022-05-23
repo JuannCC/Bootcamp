@@ -29,5 +29,13 @@
         <li><a href="www.youtube.com"> Youtube</a></li>
     </ul>
 </div>
+<div>
+    <h2>Aprendiendo a utilizar imágenes</h2>
+    <img src="seascape-g70f8117ff_1280.jpg" alt="Es una imagen" width="600" height="500">
+    <h2>Aprendiendo a utilizar videos</h2>
+    <video src="Jellyfish - 110877.mp4" type="video/mp4" controls autoplay muted loop width="300" height="300"> </video>
+    <h2>Aprendiendo a utilizar audios</h2>
+    <audio src="everything-feels-new-15241.mp3" controls type="audio/mp3"></audio>
+</div>
 </body>
 </html>
