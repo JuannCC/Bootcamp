@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    height: 60vw;
+    justify-content: center
+}
+.btn-modern{
+    background-color: rgb(171, 253, 48);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 4px;
+}
+.btn-modern:hover{
+    transform: translateY(-5px);
+    border-bottom-width: 5px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    transition: 0.4s;
+}
