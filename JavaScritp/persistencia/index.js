@@ -39,4 +39,4 @@ function createCookie(name,value,minutes) {
     }
     document.cookie = name+"="+value+expires+"; path=/";
 }
-createCookie("Name", "Juan Crotta", 5)
+createCookie("Name", "Juan Crotta", 2)
