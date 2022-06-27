@@ -22,7 +22,7 @@ secciones.forEach(seccion => {
         //console.log("Drag Over")
     })
 
-    seccion.addEventListener("drop", ()=> {
+    seccion.addEventListener("drop", event=> {
         console.log("Drop")
         const id_parrafo = event.dataTransfer.getData("id")
         //console.log("Parrafo id: ", id_parrafo)
@@ -32,9 +32,10 @@ secciones.forEach(seccion => {
 })
 
 imagenes.forEach(imagen => {
-    imagen.addEventListener("dragenter", e =>{
-    e.preventDefault()
+    imagen.addEventListener("dragenter", event =>{
+    event.preventDefault()
     console.log("ENTRO")
+
     
     })
 })
