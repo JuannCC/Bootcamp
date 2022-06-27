@@ -7,6 +7,8 @@ parrafos.forEach(parrafo => {
         console.log("Estoy arrastrando el parrafo: "+ parrafo.innerText)
         parrafo.classList.add("dragging")
         event.dataTransfer.setData("id", parrafo.id)
+        const elemento = document.querySelector(".imagen")
+        event.dataTransfer.setDragImage(elemento, 0,0)
 
     })
         parrafo.addEventListener("dragend", () => {
