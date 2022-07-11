@@ -13,9 +13,9 @@ public class SmartPhone extends SmartDevice{
     public String toString() {
         return "SmartPhone{" +
                 "lectorHuella=" + lectorHuella +
-                ", marca='" + marca + '\'' +
-                ", tipo='" + tipo + '\'' +
-                ", anio=" + anio +
+                ", marca='" + getMarca() + '\'' +
+                ", tipo='" + getTipo() + '\'' +
+                ", anio=" + getAnio() +
                 '}';
     }
 }
