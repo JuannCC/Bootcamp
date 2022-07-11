@@ -13,9 +13,9 @@ public class SmartWatch extends SmartDevice{
     public String toString() {
         return "SmartWatch{" +
                 "gps=" + gps +
-                ", marca='" + marca + '\'' +
-                ", tipo='" + tipo + '\'' +
-                ", anio=" + anio +
+                ", marca='" + getMarca() + '\'' +
+                ", tipo='" + getTipo() + '\'' +
+                ", anio=" + getAnio() +
                 '}';
     }
 }
