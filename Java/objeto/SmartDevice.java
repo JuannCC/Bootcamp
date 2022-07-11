@@ -1,7 +1,7 @@
 public class SmartDevice {
-    String marca;
-    String tipo;
-    int anio;
+    private String marca;
+    private String tipo;
+    private int anio;
     public SmartDevice() {
     }
 
